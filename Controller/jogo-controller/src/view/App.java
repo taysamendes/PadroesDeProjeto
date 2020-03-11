@@ -6,7 +6,7 @@ import model.ExercitoInimigo;
 import model.Inimigo;
 import model.SoldadoDeGuerrilha;
 
-public class app {
+public class App {
 
 	public static void main(String[] args) {
 		Inimigo e1 = new SoldadoDeGuerrilha();
