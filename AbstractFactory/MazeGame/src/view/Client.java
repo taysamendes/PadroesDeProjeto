@@ -24,8 +24,8 @@ public class Client {
 	}
 	
 	public static void main(String[] args) {
-		//Maze m1 = createMaze("simple maze");
-		Maze m2 = createMaze("enchanted maze");
+		createMaze("simple maze");
+		createMaze("enchanted maze");
 
 	}
 }
