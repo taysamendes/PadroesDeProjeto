@@ -13,17 +13,11 @@ public abstract class AbstractGame {
 		endPlay();
 	}
 
-	public void initialize() {
-		System.out.println("Initialize");
-	}
+	public void initialize() {}
 
-	public void startPlay() {
-		System.out.println("Start Play");
-	}
+	public void startPlay() {}
 
-	public void endPlay() {
-		System.out.println("End Play");
-	}
+	public void endPlay() {}
 
-	public abstract void play();
+	public void play() {}
 }
